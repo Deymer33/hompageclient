@@ -1,3 +1,40 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-background",
+      "description": "A serene spa-like setting with natural elements.",
+      "imageUrl": "https://images.unsplash.com/photo-1583416750470-965b2707b355?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHx3ZWxsbmVzcyUyMHNwYXxlbnwwfHx8fDE3NTkzNDAxNDZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "wellness spa"
+    },
+    {
+      "id": "product-oil",
+      "description": "A bottle of essential oil with lavender.",
+      "imageUrl": "https://images.unsplash.com/photo-1550159793-ecaa76eaffde?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxlc3NlbnRpYWwlMjBvaWx8ZW58MHx8fHwxNzU5MzQwMTQ2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "essential oil"
+    },
+    {
+      "id": "product-cream",
+      "description": "A jar of natural cosmetic cream.",
+      "imageUrl": "https://images.unsplash.com/photo-1614267862869-67875a45cd2d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxuYXR1cmFsJTIwY3JlYW18ZW58MHx8fHwxNzU5MzQwMTQ2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "natural cream"
+    },
+    {
+      "id": "product-soap",
+      "description": "A bar of handmade soap with oats.",
+      "imageUrl": "https://images.unsplash.com/photo-1618840313409-66c0d92d6f26?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxoYW5kbWFkZSUyMHNvYXB8ZW58MHx8fHwxNzU5MzQwMTQ2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "handmade soap"
+    },
+    {
+      "id": "product-tea",
+      "description": "A cup of herbal tea with loose leaves.",
+      "imageUrl": "https://images.unsplash.com/photo-1608060563275-a60fb5027f8d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxoZXJiYWwlMjB0ZWF8ZW58MHx8fHwxNzU5MjU0MTc3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "herbal tea"
+    },
+    {
+      "id": "location-map",
+      "description": "A stylized map showing a city location.",
+      "imageUrl": "https://images.unsplash.com/photo-1717343824623-06293a62a70d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaXR5JTIwbWFwfGVufDB8fHx8MTc1OTI3ODQ3Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "city map"
+    }
+  ]
 }
