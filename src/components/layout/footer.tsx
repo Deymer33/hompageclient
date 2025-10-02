@@ -1,5 +1,6 @@
 import Link from 'next/link';
-import { Leaf, Facebook, Instagram, Twitter } from 'lucide-react';
+import Image from 'next/image';
+import { Facebook, Instagram, Twitter } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 const Footer = () => {
@@ -8,8 +9,15 @@ const Footer = () => {
       <div className="container mx-auto px-6 py-8">
         <div className="flex flex-col items-center justify-between md:flex-row">
           <Link href="/" className="flex items-center gap-2 mb-6 md:mb-0">
-            <Leaf className="h-8 w-8 text-primary-foreground" />
-            <span className="text-2xl font-bold font-headline">Natural Harmony</span>
+            <Image 
+              src="/logo.png"
+              alt="Logo Natural Health Center"
+              width={32}
+              height={32}
+            />
+            <span className="text-2xl font-bold font-headline">
+              Natural heal center
+            </span>
           </Link>
           <div className="flex items-center space-x-4">
             <Button variant="ghost" size="icon" asChild>
@@ -30,7 +38,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="mt-8 border-t border-primary-foreground/20 pt-4 text-center text-sm text-primary-foreground/80">
-          <p>&copy; {new Date().getFullYear()} Natural Harmony. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Natural Heal Center. All rights reserved.</p>
           <p className="mt-1">Made with ♡ in Mexico and USA.</p>
         </div>
       </div>

@@ -6,6 +6,8 @@ import { Leaf, Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 import { cn } from '@/lib/utils';
+import Image from 'next/image';
+
 
 const navLinks = [
   { href: '#services', label: 'Services' },
@@ -34,9 +36,16 @@ const Header = () => {
       )}
     >
       <div className="container mx-auto flex h-20 items-center justify-between px-6">
-        <Link href="/" className="flex items-center gap-2">
-          <Leaf className="h-8 w-8 text-primary" />
-          <span className="text-2xl font-bold font-headline text-foreground">Natural Harmony</span>
+                <Link href="/" className="flex items-center gap-2">
+          <Image 
+            src="/logo.png"   // tu logo en public/
+            alt="Logo Natural Health Center"
+            width={32}
+            height={32}
+          />
+          <span className="text-2xl font-bold font-headline text-foreground">
+            Natural heal center
+          </span>
         </Link>
         <nav className="hidden md:flex items-center gap-6">
           {navLinks.map((link) => (
@@ -59,9 +68,20 @@ const Header = () => {
             </SheetTrigger>
             <SheetContent side="right">
               <div className="flex flex-col space-y-6 p-6">
-                <Link href="/" className="flex items-center gap-2 self-start" onClick={() => setIsMobileMenuOpen(false)}>
-                  <Leaf className="h-7 w-7 text-primary" />
-                  <span className="text-xl font-bold font-headline">Natural Harmony</span>
+                <Link 
+                  href="/" 
+                  className="flex items-center gap-2 self-start" 
+                  onClick={() => setIsMobileMenuOpen(false)}
+                >
+                  <Image 
+                    src="/logo.png"
+                    alt="Logo Natural Harmony"
+                    width={28}
+                    height={28}
+                  />
+                  <span className="text-xl font-bold font-headline">
+                    Natural Healt center
+                  </span>
                 </Link>
                 <nav className="flex flex-col gap-4">
                   {navLinks.map((link) => (
