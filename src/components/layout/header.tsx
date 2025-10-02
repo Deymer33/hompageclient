@@ -40,11 +40,11 @@ const Header = () => {
           <Image 
             src="/logo.png"   // tu logo en public/
             alt="Logo Natural Health Center"
-            width={32}
-            height={32}
+            width={50}
+            height={45}
           />
           <span className="text-2xl font-bold font-headline text-foreground">
-            Natural heal center
+            
           </span>
         </Link>
         <nav className="hidden md:flex items-center gap-6">
@@ -76,8 +76,8 @@ const Header = () => {
                   <Image 
                     src="/logo.png"
                     alt="Logo Natural Harmony"
-                    width={28}
-                    height={28}
+                    width={50}
+                    height={45}
                   />
                   <span className="text-xl font-bold font-headline">
                     Natural Healt center
