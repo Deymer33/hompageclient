@@ -40,8 +40,8 @@ const Header = () => {
           <Image 
             src="/logo.png"   // tu logo en public/
             alt="Logo Natural Health Center"
-            width={50}
-            height={45}
+            width={100}
+            height={80}
           />
           <span className="text-2xl font-bold font-headline text-foreground">
             
