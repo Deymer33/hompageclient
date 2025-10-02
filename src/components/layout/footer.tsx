@@ -12,8 +12,8 @@ const Footer = () => {
             <Image 
               src="/logo.png"
               alt="Logo Natural Health Center"
-              width={50}
-              height={50}
+              width={100}
+              height={80}
             />
             <span className="text-2xl font-bold font-headline">
               Natural heal center
